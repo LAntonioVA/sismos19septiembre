@@ -26,6 +26,10 @@ html {
 /* Header Styles */
 
 header {
+    width: 100%;
+    height: auto;
+    min-height: 440px ;
+
     background-image: url(../assets19s/images19s/sismo-19s-punoEnAlto.png);
 
     
