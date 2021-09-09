@@ -2,6 +2,7 @@
     --rojo: #B00000;
     --gris1: #838383;
     --gris2: #B5B5B5;
+    --white: #ffffff;
 
     --font1: 'Bebas Neue', cursive;
     --font2: 'Montserrat', sans-serif;
@@ -31,8 +32,38 @@ header {
     min-height: 440px ;
 
     background-image: url(../assets19s/images19s/sismo-19s-punoEnAlto.png);
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
 
-    
+    padding: 25px;
     font-family: var(--font1);
+}
 
+header b {
+    color: var(--rojo);
+}
+
+header h1 {
+    display: inline-block;
+    color: var(--white);
+    font-size: 3.6rem;
+}
+
+header h2 {
+    color: var(--gris2);
+    font-size: 2.4rem;
+}
+
+.main__specialText {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.main__white {
+    color: var(--white);
+}
+
+.main__mexCity {
+    margin-top: 15px;
 }
