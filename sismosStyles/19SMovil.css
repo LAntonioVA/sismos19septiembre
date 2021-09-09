@@ -1,0 +1,34 @@
+:root {
+    --rojo: #B00000;
+    --gris1: #838383;
+    --gris2: #B5B5B5;
+
+    --font1: 'Bebas Neue', cursive;
+    --font2: 'Montserrat', sans-serif;
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --bold: 600; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font2);
+    font-weight: var(--medium);
+}
+
+/* Header Styles */
+
+header {
+    background-image: url(../assets19s/images19s/sismo-19s-punoEnAlto.png);
+
+    
+    font-family: var(--font1);
+
+}
