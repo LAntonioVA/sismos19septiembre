@@ -67,3 +67,77 @@ header h2 {
 .main__mexCity {
     margin-top: 15px;
 }
+
+.main__questions {
+    margin-top: 50px;
+    
+    font-family: var(--font2);
+    text-align: center;
+    color: var(--gris2);
+    font-weight: var(--medium);
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+}
+
+/* Main Event info Starts */
+
+.main-event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-event--info {
+    margin: 40px 0 15px 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--gris1);
+    font-weight: var(--medium);
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+
+.main-event--info span {
+    color: var(--rojo);
+}
+
+.main-event a {
+
+    text-decoration: none;
+    color: var(--white);
+}
+
+.main-event--registerButton {
+    text-align: center;
+    width: 240px;
+    height: 30px;
+    margin: 30px 0;
+
+    background-color: var(--rojo);
+    border-radius: 15px;
+    padding: 5px;
+
+    font-size: 1.4rem;
+    font-weight: var(--bold);
+}
+
+.main-event--pannelButton {
+    text-align: center;
+    width: 240px;
+    height: 30px;
+    margin-bottom: 30px;
+
+    background-color: var(--gris2);
+    border-radius: 15px;
+    padding: 5px;
+
+    font-size: 1.4rem;
+    font-weight: var(--bold);
+}
+
