@@ -33,7 +33,7 @@ header {
   min-width: 320px;
   height: auto;
   min-height: 440px;
-  scroll-snap-align: center;
+  scroll-snap-align: start;
 
   background-image: url(../assets19s/images19s/sismo-19s-punoEnAlto2x.png);
   background-size: cover;
@@ -112,6 +112,11 @@ header h2 {
 .main-event--info span {
   color: var(--rojo);
 }
+
+.main-event--info .info__spacialDate {
+    color: var(--rojo);
+    display: block;
+  }
 
 .main-event a {
   text-decoration: none;

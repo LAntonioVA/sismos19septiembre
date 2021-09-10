@@ -1,0 +1,61 @@
+header {
+  min-width: 750px;
+  min-height: 550px;
+
+  background-image: url(../assets19s/images19s/sismo-19s-punoEnAlto-Tablet.png);
+
+  padding: 30px;
+
+  letter-spacing: 0.1rem;
+}
+
+header h1 {
+  font-size: 4.2rem;
+}
+
+header h2 {
+  font-size: 2.8rem;
+}
+
+.main__mexCity {
+  margin-top: 10px;
+}
+
+.main__questions {
+  margin-top: 25px;
+  text-align: start;
+  color: var(--white);
+  font-weight: var(--medium);
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+}
+
+/*Moving Up Main Event*/
+
+.main-event {
+  position: relative;
+  align-items: flex-start;
+}
+
+.main-event--info {
+  position: absolute;
+  bottom: 90%;
+
+  width: 70%;
+  min-width: 460px;
+  text-align: left;
+
+  align-items: flex-start;
+
+  padding-left: 30px;
+
+  color: var(--gris1);
+  font-weight: var(--medium);
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
+
+.main-event--info .info__spacialDate {
+    color: var(--rojo);
+    display: inline-block;
+  }
