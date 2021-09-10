@@ -22,6 +22,7 @@ html {
   font-size: 62.5%;
   font-family: var(--font2);
   font-weight: var(--medium);
+  scroll-snap-type: y proximity;
 }
 
 /* Header Styles */
@@ -31,8 +32,9 @@ header {
   min-width: 320px;
   height: auto;
   min-height: 440px;
+  scroll-snap-align: center;
 
-  background-image: url(../assets19s/images19s/sismo-19s-punoEnAlto.png);
+  background-image: url(../assets19s/images19s/sismo-19s-punoEnAlto2x.png);
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
@@ -94,6 +96,7 @@ header h2 {
   min-width: 320px;
   height: auto;
   text-align: center;
+  scroll-snap-align: center;
 
   display: flex;
   flex-direction: column;
@@ -153,7 +156,7 @@ header h2 {
   width: 100%;
   min-width: 320px;
   height: auto;
-  margin: 15px 0 30px 0;
+  margin: 15px 0 15px 0;
   padding-top: 55px;
 
   background-color: var(--gris2);
@@ -170,6 +173,8 @@ header h2 {
 .panelist-info--iconhead .iconhead__364 {
   width: 40px;
   height: 30px;
+
+  scroll-snap-align: start;
 
   background-image: url(../assets19s/icons19s/364.svg);
   background-position: center;
@@ -254,26 +259,26 @@ header h2 {
 
 footer {
   display: flex;
-  align-items: center;
+    align-items: center;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   min-width: 280px;
   height: auto;
   min-height: 100px;
   font-size: 1.2rem;
+  font-weight: var(--light);
+  color: var(--gris1);
 }
 
 footer div {
-  border: var(--gris1) 1px solid;
-
   width: 50%;
-
   text-align: center;
 }
 
-footer span {
+
+.logo-geotem-min{
     display: inline-block;
-    margin: auto 0;
+    margin: 10px 0;
     width: 100px;
     height: auto;
     min-height: 50px;
@@ -282,5 +287,30 @@ footer span {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-  }
 }
+
+.footer-webandSSNN {
+    border-left: var(--gris1) 1px solid;
+}
+
+.footer-webandSSNN a{
+    margin-top: 5px;
+    
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: var(--bold);
+    color: var(--gris2);
+
+    
+}
+.socialNetworks{
+    margin-top: 15px;
+}
+.socialNetworks img{
+    
+    width: 20px;
+    height: 20px;
+    margin: 0 2%;
+    margin-bottom: 5px;
+  
+  }
