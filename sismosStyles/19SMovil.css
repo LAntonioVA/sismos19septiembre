@@ -22,6 +22,7 @@ html {
   font-size: 62.5%;
   font-family: var(--font2);
   font-weight: var(--medium);
+  scroll-behavior: smooth;
   scroll-snap-type: y proximity;
 }
 
@@ -203,7 +204,7 @@ header h2 {
 .panlist-info--details {
   width: 90%;
   height: auto;
-  margin: 30px auto;
+  margin: 30px auto 10px auto;
 
   display: flex;
   flex-direction: column;
@@ -238,8 +239,15 @@ header h2 {
   color: var(--rojo);
 }
 
+.masterOfCeremony {
+  font-size: 1.2rem;
+  line-height: 0.1rem;
+  font-weight: var(--regular);
+}
+
 .panlist-info--details .details__cv {
   display: flex;
+  justify-content: center;
   margin: 0 auto;
   width: 90%;
   min-width: 275px;
@@ -259,7 +267,7 @@ header h2 {
 
 footer {
   display: flex;
-    align-items: center;
+  align-items: center;
   margin: 0 auto;
   width: 100%;
   min-width: 280px;
@@ -275,42 +283,37 @@ footer div {
   text-align: center;
 }
 
+.logo-geotem-min {
+  display: inline-block;
+  margin: 10px 0;
+  width: 100px;
+  height: auto;
+  min-height: 50px;
 
-.logo-geotem-min{
-    display: inline-block;
-    margin: 10px 0;
-    width: 100px;
-    height: auto;
-    min-height: 50px;
-  
-    background-image: url(../assets19s/icons19s/logo-geotem-miniatura.svg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url(../assets19s/icons19s/logo-geotem-miniatura.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .footer-webandSSNN {
-    border-left: var(--gris1) 1px solid;
+  border-left: var(--gris1) 1px solid;
 }
 
-.footer-webandSSNN a{
-    margin-top: 5px;
-    
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: var(--bold);
-    color: var(--gris2);
+.footer-webandSSNN a {
+  margin-top: 5px;
 
-    
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: var(--bold);
+  color: var(--gris2);
 }
-.socialNetworks{
-    margin-top: 15px;
+.socialNetworks {
+  margin-top: 15px;
 }
-.socialNetworks img{
-    
-    width: 20px;
-    height: 20px;
-    margin: 0 2%;
-    margin-bottom: 5px;
-  
-  }
+.socialNetworks img {
+  width: 20px;
+  height: 20px;
+  margin: 0 2%;
+  margin-bottom: 5px;
+}
