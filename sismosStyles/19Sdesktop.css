@@ -1,0 +1,95 @@
+header {
+    min-width: 1000px;
+    min-height: 1024px;
+  
+    background-image: url(../assets19s/images19s/sismo-19s-punoEnAlto-Desktop2x.png);
+  
+    padding: 50px;
+  
+    letter-spacing: 0.1rem;
+  }
+
+header h1 {
+    font-size: 12rem;
+    line-height: 14rem;
+  }
+
+  header h2 {
+    font-size: 4.8rem;
+  }
+  
+  .main__mexCity {
+    margin-top: 20px;
+  }
+  
+  .main__questions {
+    margin-top: 40px;
+    text-align: start;
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+  }
+  
+  /*Moving Up Main Event*/
+
+  
+  .main-event--info {
+    bottom: 100%;
+  
+    width: 900px;
+  
+    padding-left: 50px;
+  
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+  }
+  
+  
+  .main-event--buttons {
+    width: 540px;
+  }
+  
+.main-event--registerButton {
+    margin: 70px 0;
+padding: 7px;
+
+    font-size: 1.8rem;
+
+    height: 40px;
+    border-radius: 20px;
+}
+
+  .main-event--pannelButton {
+    margin: 70px 0;
+    padding: 7px;
+
+    font-size: 1.8rem;
+
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  .pannelist-info {
+    padding-top: 70px;
+  }
+  
+  .panelist-info--iconhead{
+    margin-bottom: 40px;
+  }
+  
+  .panelist-info--iconhead .iconhead__19S {
+    width: 490px;
+    height: 60px;
+  
+    background-image: url(../assets19s/icons19s/364-sismos19septiembre-desktop.svg);
+  }
+  
+  .pannelist-info__highlight {
+    width: 920px;
+    text-align: center;
+
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 1.5em;
+  }
