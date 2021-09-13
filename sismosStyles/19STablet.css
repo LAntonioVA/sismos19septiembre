@@ -23,7 +23,7 @@ header h2 {
 
 .main__questions {
   margin-top: 25px;
-width: auto;
+  width: auto;
 
   text-align: start;
   color: var(--white);
@@ -59,9 +59,9 @@ width: auto;
 }
 
 .main-event--info .info__spacialDate {
-    color: var(--rojo);
-    display: inline-block;
-  }
+  color: var(--rojo);
+  display: inline-block;
+}
 
 .main-event--buttons {
   display: flex;
@@ -79,7 +79,7 @@ width: auto;
   padding-top: 40px;
 }
 
-.panelist-info--iconhead{
+.panelist-info--iconhead {
   position: static;
   margin-bottom: 30px;
 }
@@ -100,7 +100,7 @@ width: auto;
   font-size: 1.8rem;
 }
 
-.panlist-info--details{
+.panlist-info--details {
   display: flex;
   flex-direction: initial;
   flex-wrap: wrap;
@@ -109,7 +109,6 @@ width: auto;
 }
 
 .panlist-info--details article {
-
   width: 310px;
   height: auto;
   min-height: 150px;
@@ -117,6 +116,6 @@ width: auto;
   text-align: center;
 }
 
-.main-event--registerButtonTablet{
+.main-event--registerButtonTablet {
   margin: 15px 0 50px 0;
 }
