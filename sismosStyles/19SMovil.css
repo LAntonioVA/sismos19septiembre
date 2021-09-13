@@ -123,6 +123,12 @@ header h2 {
   color: var(--white);
 }
 
+.main-event--buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .main-event--registerButton {
   text-align: center;
   width: 240px;
