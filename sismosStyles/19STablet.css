@@ -42,7 +42,7 @@ header h2 {
 .main-event--info {
   position: absolute;
   margin-top: 10px;
-  bottom: 100%;
+  bottom: 99%;
   margin: 0;
 
   width: 400px;
