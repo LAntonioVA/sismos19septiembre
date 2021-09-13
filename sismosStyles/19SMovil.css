@@ -4,7 +4,7 @@
   --gris2: #b5b5b5;
   --white: #ffffff;
 
-  --font1: "Bebas Neue", cursive;
+  --font1: "Bebas Neue", verdana;
   --font2: "Montserrat", sans-serif;
   --light: 300;
   --regular: 400;
@@ -151,7 +151,7 @@ header h2 {
   height: 30px;
   margin-bottom: 30px;
 
-  background-color: var(--gris2);
+  background-color: var(--gris1);
   border-radius: 15px;
   padding: 5px;
 
@@ -271,7 +271,7 @@ header h2 {
   font-size: 1.4rem;
   line-height: 1.75rem;
   font-weight: var(--medium);
-  color: var(--white);
+  color: #414141;
 }
 .details__cv .details__cv-format {
   align-self: center;

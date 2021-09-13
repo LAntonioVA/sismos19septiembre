@@ -5,31 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sismos 19 de septiembre</title>
-    <link rel="stylesheet" href="./sismosStyles/19SMovil.css" />
-    <link
-      rel="stylesheet"
-      href="./sismosStyles/19STablet.css"
-      media="(min-width: 750px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./sismosStyles/19Sdesktop.css"
-      media="(min-width: 1000px)"
-    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <!--   <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    /> -->
+    <!--     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
       rel="stylesheet"
+    /> -->
+
+    <link
+      rel="preload"
+      href="./sismosStyles/19SMovil.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript
+      ><link rel="stylesheet" href="./sismosStyles/19SMovil.css"
+    /></noscript>
+
+    <link
+    rel="preload"
+    href="./sismosStyles/19STablet.css" media="(min-width: 750px)"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link
+      rel="stylesheet"
+      href="./sismosStyles/19STablet.css"
+      media="(min-width: 750px)"
+    /></noscript>
+    
+    <link
+    rel="preload"
+    href="./sismosStyles/19Sdesktop.css" media="(min-width: 1000px)"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link
+      rel="stylesheet"
+      href="./sismosStyles/19Sdesktop.css"
+      media="(min-width: 1000px)"
+    /></noscript>
+    
   </head>
+
+
   <body>
     <header>
       <h2>Hace</h2>
@@ -55,17 +81,21 @@
         <p>
           Asiste a la mesa de diálogo el
           <span class="info__spacialDate">
-          <b>26<span> . </span> Septiembre<span> . </span>2021</b>
-          </span> en donde expertos en desarrollo de infraestructura y exploración
-          del subsuelo debatirán sobre tema.
+            <b>26<span> . </span> Septiembre<span> . </span>2021</b>
+          </span>
+          en donde expertos en desarrollo de infraestructura y exploración del
+          subsuelo debatirán sobre tema.
         </p>
         <div class="main-event--buttons">
-          <a class="main-event--registerButton"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSc2hFq44e3jtCfh80Apd2HVVtJ0WMPA-R5htykIlnj44ofdKA/viewform?usp=sf_link"
-          >Regístrate</a>
+          <a
+            class="main-event--registerButton"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc2hFq44e3jtCfh80Apd2HVVtJ0WMPA-R5htykIlnj44ofdKA/viewform?usp=sf_link"
+            >Regístrate</a
+          >
           <a class="main-event--pannelButton" href="#ParticipantPanelist"
-          >Conoce a los expertos</a>
-        </div>  
+            >Conoce a los expertos</a
+          >
+        </div>
       </div>
       <div class="pannelist-info">
         <div class="panelist-info--iconhead">
