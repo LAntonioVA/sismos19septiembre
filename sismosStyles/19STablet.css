@@ -23,6 +23,8 @@ header h2 {
 
 .main__questions {
   margin-top: 25px;
+width: auto;
+
   text-align: start;
   color: var(--white);
   font-weight: var(--medium);
